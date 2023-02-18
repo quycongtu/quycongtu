@@ -1,0 +1,99 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: #FC0;
+    text-decoration: underline;
+}
+header{
+    background-image:url(/img/bannertruonghoc.jpg);
+    
+    
+}
+footer{
+background-color: #77F;
+height: 100px;
+}
+.one{
+    bottom: 0;
+    text-align: center;
+}
+nav{
+    color: white;
+    font-variant: small-caps;
+    background-color: #F80;
+    line-height: 15px;
+}
+.menubutton{
+    font-size: 15px;
+}
+.menubutton ul{
+    background: #77F;
+    padding: 0px;
+    margin: 0px;
+    line-height: 25px;
+}
+.menubutton>ul>span>li{
+    display: inline-block;
+    width: 100px;
+}
+.menubutton ul li{
+    padding: 10px 10px 10px 10px;
+    position: relative;
+
+}
+.menubutton .menuright .search{
+    float:right;
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+}
+.menubutton .icon a {
+    float: right;
+    margin: 5px;
+}
+.menubutton .iconhome a{
+    float: left;
+    margin: 5px;
+    padding: 0px 6px;
+}
+.menubutton .submenu{
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    
+    display: none;
+    border-radius: 5px;
+    line-height: none;
+    width: 185px;
+    background: white;
+}
+.menubutton .submenu a{
+    display: block;
+    line-height: 20px;
+    color: orangered;
+    padding: 0 10px;
+}
+.menubutton .submenu li:hover{
+    background: orange;
+    border-radius: 5px;
+}
+.menubutton .submenu li:hover a{
+    color: white;
+}
+.menubutton>ul>span>li:hover>.submenu{
+    display: block;
+}
+aside {
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+.menuleft li a{
+    text-decoration: none;
+    font-family: Arial;
+}
