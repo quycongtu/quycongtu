@@ -4,74 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    *{
-        margin:0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Roboto', sans-serif;
-    }
-   section{
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-    }
-   section .img-bg{
-        position: relative;
-        width: 50%;
-        height: 100%;
-    }
-   section .img-bg img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
-</style>
+    <title>Trang chu</title>
+    <link rel="stylesheet" href="/pages/lienhe.html">
+    <link rel="stylesheet" href="/pages/hinhanh.html">
+    <link rel="stylesheet" href="/pages/gioithieu.html">
+    <link rel="stylesheet" href="/pages/tamnhinvasumenh.html">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <section>
-        <!--Bắt Đầu Phần Hình Ảnh-->
-        <div class="img-bg">
-        </div>
-        <!--Kết Thúc Phần Hình Ảnh-->
-        <!--Bắt Đầu Phần Nội Dung-->
-        <div class="noi-dung">
-            <div class="form">
-                <h2>Trang Đăng Nhập</h2>
-                <form action="">
-                    <div class="input-form">
-                        <span>Tên Người Dùng</span>
-                        <input type="text" name="">
-                    </div>
-                    <div class="input-form">
-                        <span>Mật Khẩu</span>
-                        <input type="password" name="">
-                    </div>
-                    <div class="nho-dang-nhap">
-                        <label><input type="checkbox" name=""> Nhớ Đăng Nhập</label>
-                    </div>
-                    <div class="input-form">
-                        <input type="submit" value="Đăng Nhập">
-                    </div>
-                    <div class="input-form">
-                        <p>Bạn Chưa Có Tài Khoản? <a href="#">Đăng Ký</a></p>
-                    </div>
-                </form>
-                <h3>Đăng Nhập Bằng Mạng Xã Hội</h3>
-                <ul class="icon-dang-nhap">
-                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-google" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+    <div class="layout">
+        <header>
+            <img src="/img/bannertruonghoc.jpg" alt="">
+        </header>
+        <nav class="menubutton">
+            <ul>
+                <span class="iconhome">
+                    <a href="#"><img src="/img/icontrangtru.png" width="25" height="25"/></a>
+                </span>
+                <span class="menuleft">
+                    <li> <a href="/index.html">TRANG CHU</a> </li>
+                    <li> <a href="/pages/gioithieu.html">GIOI THIEU</a>
+                        <ul class="submenu">
+                            <li><a href="/pages/tamnhinvasumenh.html">TAM NHIN VA <br> SU MENH</a></li>
+                            <li><a href="/pages/gioithieu.html">GIOI THIEU</a></li>
+                            <li><a href="/pages/hinhanh.html">HINH ANH</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="/pages/lienhe.html">LIEN HE</a></li>
+                    <li><a href="/gopy.html">GOP Y</a></li>
+                    <li><a href="/hoidap.html">HOI DAP</a></li>
+                </span>
+                <span class="icon">
+                    <a href="#"><img src="/img/icontimkiem.png" width="25" height="25" alt=""></a></span>
+                    <span class="menuright">
+                        <input type="text" name="search" class="search"/>
+                    </span>
                 </ul>
+                
+        </nav>
+        <aside>
+            <ul>
+                <li><a href="#">Thành tích học tập</a></li>
+                <li><a href="#">Phát động các cuộc thi</a></li>
+                <li><a href="#">Bài viết tổ</a></li>
+                <li><a href="#">Các kế hoạch</a></li>
+            </ul>
+        </aside>
+        <article>
+            <div>
+                <span>Thu 3, ngay 20/2/2020</span>
             </div>
+            
+            <div class="anhnen">
+                <a href="#"><img src="/img/anhnnen.jpg" width="40%" height="400" style="padding-bottom: 5%;" </a>
+            </div>
+            <div class="linktrangchu">
+                <a href="#">TIN TUC</a>
+                <hr color="#FF000"/>
+                <div class="tintonghop">
+                
+                </div>
+            </div>
+        </article>
+        <footer>
+            <div class="one">
+           <br> <br> Địa chỉ: Khu phố 10, Phường Dương Đông, TP Phú Quốc-Tỉnh Kiêng Giang
         </div>
-        <!--Kết Thúc Phần Nội Dung-->
-    </section>
+           </footer>
+    </div>
+    
+   
 </body>
 </html>
