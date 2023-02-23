@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 a{
     color: #000;
     text-decoration: none;
@@ -16,6 +21,7 @@ background-color: #77F;
 height: 100px;
 text-align: center;
 clear: both ;
+
 }
 .one{
     bottom: 0;
@@ -27,6 +33,7 @@ nav{
     background-color: #F80;
     line-height: 15px;
 }
+
 .menubutton{
     font-size: 15px;
 }
@@ -91,11 +98,38 @@ nav{
 }
 aside {
     min-height: 400px;
-    width: 25%;
+    width: 300px;
     background-color: lightgray;
-    float: right;
+    float: left;
+}
+.h3 h3{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: blue;
+    color: #fff;
+    text-shadow: 2px 2px 5px red;
+}
+.menudoc ul{
+    list-style: none;
+}
+.menudoc ul li{
+    padding: 10px 15px;
+    background-color: white;
+    border-top: 1px solid gray;
+}.menudoc ul li:hover{
+    background: red;
 }
 .menuleft li a{
     text-decoration: none;
     font-family: Arial;
+}
+.mid{
+    width: 80%;
+}
+.trai{
+    width: 20%;
+}
+.phai{
+    width: 60%;
+    padding-left: 300px;
 }
